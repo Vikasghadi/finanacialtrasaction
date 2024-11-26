@@ -1,2 +1,3 @@
 spark.conf.set("spark.executor.instance",1)
 spark.conf.set("spark.executor.memory","2G")
+spark.conf.set("spark.executor.offheap.enabled","true")
